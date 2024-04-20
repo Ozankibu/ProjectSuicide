@@ -14,7 +14,6 @@ public class GunSuicide : MonoBehaviour , IInteractible
         gameObject.transform.parent = player.transform;
         animator.SetTrigger("Trigger");
 
-
     }
 
 

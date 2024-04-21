@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FailGameOver.unity
     guid: 23f52b4beeff92c4098084cfdeefc209
+  - enabled: 1
+    path: Assets/Scenes/scene2.unity
+    guid: bc0d15d034ae9a441ac135fdd739d42a
+  - enabled: 1
+    path: Assets/Scenes/hikaye1.unity
+    guid: 7fcb1245329a2ab40ac6b3bad7dc55bc
   m_configObjects: {}

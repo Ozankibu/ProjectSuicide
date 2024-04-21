@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
         else if (remainingTime <= 0)
         {
             remainingTime = 0;
-            SceneManager.LoadScene("FailGameOver");
+            SceneManager.LoadScene("END1");
         }
 
         int minutes = Mathf.FloorToInt(remainingTime / 60);

@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10f;
     void Start()
     {
-        
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

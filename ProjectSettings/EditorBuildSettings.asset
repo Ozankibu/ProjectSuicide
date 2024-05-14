@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/scene2.unity
+    guid: bc0d15d034ae9a441ac135fdd739d42a
+  - enabled: 1
+    path: Assets/Scenes/hikaye1.unity
+    guid: 7fcb1245329a2ab40ac6b3bad7dc55bc
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/FailGameOver.unity
     guid: 23f52b4beeff92c4098084cfdeefc209
   - enabled: 1
-    path: Assets/Scenes/scene2.unity
-    guid: bc0d15d034ae9a441ac135fdd739d42a
+    path: Assets/Scenes/END1.unity
+    guid: 66547cce501f2f04a8fd451e8412adcf
   - enabled: 1
-    path: Assets/Scenes/hikaye1.unity
-    guid: 7fcb1245329a2ab40ac6b3bad7dc55bc
+    path: Assets/Scenes/END2.unity
+    guid: 596fd43704afd1b4f90558d0de35a559
   m_configObjects: {}

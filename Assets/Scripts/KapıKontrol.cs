@@ -2,25 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KapıKontrol : MonoBehaviour
+public class KapıKontrol : MonoBehaviour , IInteractible
 {
-    private float dönüşAçısı = 90f;
-    private Quaternion kapıAçıkRotasyon;
-    private Quaternion kapıKapalıRotasyon;
+    private float turnDeg = 90f;
+    public bool isOpen = false;
 
-    // Start is called before the first frame update
-    void Start()
+
+    public void Interact()
     {
-        kapıAçıkRotasyon = transform.rotation * Quaternion.Euler(0, -90, 0);
-        kapıKapalıRotasyon = transform.rotation;
 
+        Debug.Log("1");
 
+        if (isOpen == false)
+        {
+            gameObject.transform.Rotate(0, turnDeg, 0);
+            if (isOpen == false)
+            {
+                isOpen = true;
+            }
 
-    }
-     void OnMouseDown()
-    {
-        if(!kapıAçık)
-            transform.rotation=kapıAçıkRotasyon
+            else if (isOpen == true)
+            {
+                isOpen = false;
+            }
+        }
+        else if (isOpen == true)
+        {
+            gameObject.transform.Rotate(0, turnDeg * -1, 0);
+            if (isOpen == false)
+            {
+                isOpen = true;
+            }
+
+            else if (isOpen == true)
+            {
+                isOpen = false;
+            }
+        }
     }
 
     // Update is called once per frame
